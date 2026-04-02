@@ -41,33 +41,95 @@ export default function App() {
         }}
       >
         {/* Logo */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <span style={{
-            width: 7, height: 7, borderRadius: '50%',
-            background: 'var(--cyan)',
-            boxShadow: '0 0 8px var(--cyan)',
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+          <div style={{
+            position: 'relative',
+            width: 34,
+            height: 34,
+            borderRadius: 12,
+            background: 'linear-gradient(145deg, rgba(0,212,255,0.2), rgba(123,97,255,0.14))',
+            border: '1px solid rgba(255,255,255,0.12)',
+            boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.08), 0 10px 30px rgba(0,0,0,0.28)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
             flexShrink: 0,
-          }} />
-          <span style={{
-            fontFamily: 'var(--font-display)',
-            fontWeight: 800,
-            fontSize: 16,
-            letterSpacing: '0.12em',
-            color: 'var(--text-primary)',
+            overflow: 'hidden',
           }}>
-            FLOWDESK
-          </span>
-          <span style={{
-            marginLeft: 6,
-            fontSize: 11,
-            color: 'var(--text-secondary)',
-            letterSpacing: '0.06em',
-            fontWeight: 500,
-            paddingLeft: 10,
-            borderLeft: '1px solid var(--border)',
-          }}>
-            AI Support Agent
-          </span>
+            <span style={{
+              position: 'absolute',
+              inset: 0,
+              background: 'radial-gradient(circle at 30% 30%, rgba(0,212,255,0.22), transparent 58%)',
+            }} />
+            <span style={{
+              position: 'absolute',
+              width: 12,
+              height: 12,
+              left: 8,
+              top: 7,
+              borderRadius: 4,
+              background: 'linear-gradient(180deg, #7DF0FF 0%, #00D4FF 100%)',
+              boxShadow: '0 0 14px rgba(0,212,255,0.35)',
+              transform: 'rotate(8deg)',
+            }} />
+            <span style={{
+              position: 'absolute',
+              width: 16,
+              height: 6,
+              left: 8,
+              bottom: 8,
+              borderRadius: 999,
+              background: 'linear-gradient(90deg, #00D4FF 0%, #7B61FF 100%)',
+              transform: 'skewX(-18deg)',
+              boxShadow: '0 0 14px rgba(123,97,255,0.28)',
+            }} />
+            <span style={{
+              position: 'absolute',
+              width: 6,
+              height: 16,
+              right: 8,
+              top: 9,
+              borderRadius: 999,
+              background: '#F0F4FF',
+              opacity: 0.95,
+              transform: 'skewY(18deg)',
+            }} />
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1 }}>
+              <span style={{
+                fontFamily: 'var(--font-brand)',
+                fontWeight: 700,
+                fontSize: 22,
+                letterSpacing: '0.07em',
+                color: 'var(--text-primary)',
+                textTransform: 'uppercase',
+              }}>
+                Flowdesk
+              </span>
+              <span style={{
+                marginTop: 3,
+                fontFamily: 'var(--font-mono)',
+                fontSize: 9,
+                letterSpacing: '0.24em',
+                color: 'var(--text-tertiary)',
+                textTransform: 'uppercase',
+              }}>
+                Support Intelligence
+              </span>
+            </div>
+            <span style={{
+              fontSize: 11,
+              color: 'var(--text-secondary)',
+              letterSpacing: '0.06em',
+              fontWeight: 600,
+              paddingLeft: 12,
+              borderLeft: '1px solid var(--border)',
+              textTransform: 'uppercase',
+            }}>
+              AI Support Agent
+            </span>
+          </div>
         </div>
 
         {/* Nav tabs */}
