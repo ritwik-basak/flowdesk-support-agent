@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 915 >>
+stream
+BT
+/F1 12 Tf
+72 760 Td
+14 TL
+(Flowdesk Knowledge Base Test Document) Tj
+T*
+() Tj
+T*
+(Workspace Admins can export an activity report from Settings > Audit Log > Export CSV.) Tj
+T*
+(Exports are generated within 5 minutes and are available for download for 24 hours.) Tj
+T*
+() Tj
+T*
+(If a user sees error FD-910 during file sync, ask them to sign out, clear cached sync data, and sign in again.) Tj
+T*
+(If FD-910 continues after re-authentication, support should reindex the workspace attachments.) Tj
+T*
+() Tj
+T*
+(Enterprise plan customers can request a retroactive invoice correction within 7 days of billing.) Tj
+T*
+(Invoice corrections are handled by the Billing Operations team, not by workspace admins directly.) Tj
+T*
+() Tj
+T*
+(Knowledge base uploads should appear in search within one minute after ingestion completes.) Tj
+T*
+(Uploaded PDFs are stored in Google Cloud Storage under the documents folder.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1277
+%%EOF

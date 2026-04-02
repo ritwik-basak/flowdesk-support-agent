@@ -1,0 +1,331 @@
+[
+  {
+    "id": "billing.md_0",
+    "text": "# Flowdesk Billing and Subscription Guide  \nThis billing guide explains Flowdesk pricing, subscription management, invoices, refunds, and payment-related issues. If your workspace is managed by a company billing admin, some options described below may only be visible to admins or account owners.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide",
+    "chunk_index": 0
+  },
+  {
+    "id": "billing.md_1",
+    "text": "## Available pricing plans  \nFlowdesk offers three plans designed for individuals, growing teams, and larger organizations.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Available pricing plans",
+    "chunk_index": 1
+  },
+  {
+    "id": "billing.md_2",
+    "text": "### Free  \nBest for personal planning or small teams evaluating the platform.  \nIncludes:  \n- Up to 5 workspace members\n- Basic task and project management\n- Board and list views\n- Limited integrations\n- Standard email support",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Available pricing plans > Free",
+    "chunk_index": 2
+  },
+  {
+    "id": "billing.md_3",
+    "text": "### Pro  \nPrice: `₹799/month` per workspace member  \nBest for teams that need recurring workflows, reporting, and stronger collaboration tools.  \nIncludes everything in Free, plus:  \n- Unlimited projects\n- Recurring tasks\n- Timeline view\n- CSV export\n- Slack and Google Calendar integrations\n- Advanced notifications\n- Priority support",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Available pricing plans > Pro",
+    "chunk_index": 3
+  },
+  {
+    "id": "billing.md_4",
+    "text": "### Business  \nPrice: `₹2499/month` per workspace member  \nBest for larger teams that require controls, automation, and admin oversight.  \nIncludes everything in Pro, plus:  \n- Advanced permission controls\n- Audit logs\n- Admin reporting\n- Higher automation limits\n- Dedicated onboarding assistance\n- Faster support response targets",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Available pricing plans > Business",
+    "chunk_index": 4
+  },
+  {
+    "id": "billing.md_5",
+    "text": "## How to upgrade or downgrade a plan  \nOnly billing admins or workspace owners can change a subscription.  \n1. Open the relevant workspace.\n2. Go to **Settings** > **Billing**.\n3. Select **Change Plan**.\n4. Review the available plans and feature differences.\n5. Choose **Upgrade** or **Downgrade**.\n6. Confirm the seat count and billing cycle, if applicable.\n7. Save the change.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > How to upgrade or downgrade a plan",
+    "chunk_index": 5
+  },
+  {
+    "id": "billing.md_6",
+    "text": "7. Save the change.  \nUpgrades usually take effect immediately. Downgrades may apply at the next renewal date if the current billing period has already started. If your current usage exceeds the limits of the lower plan, you may be asked to reduce members, integrations, or premium features before the downgrade completes.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > How to upgrade or downgrade a plan",
+    "chunk_index": 6
+  },
+  {
+    "id": "billing.md_7",
+    "text": "## How to cancel a subscription  \nTo cancel a paid subscription:  \n1. Go to **Settings** > **Billing**.\n2. Open **Manage Subscription**.\n3. Click **Cancel Plan**.\n4. Review the cancellation summary.\n5. Confirm the cancellation.  \nAfter cancellation, your paid features remain available until the end of the current billing period unless otherwise stated during checkout or in a promotional offer. At the end of that period, the workspace typically moves to the Free plan, subject to Free plan limits.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > How to cancel a subscription",
+    "chunk_index": 7
+  },
+  {
+    "id": "billing.md_8",
+    "text": "## Refund policy  \nFlowdesk generally does not provide partial refunds for unused time in the middle of a billing cycle. However, refunds may be considered in limited situations such as:  \n- Duplicate charges\n- Incorrect seat billing caused by a verified platform issue\n- Accidental renewal reported shortly after the billing date  \nRefund requests should be submitted through support with:  \n- Workspace name\n- Billing email\n- Invoice number\n- Reason for the refund request",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Refund policy",
+    "chunk_index": 8
+  },
+  {
+    "id": "billing.md_9",
+    "text": "- Billing email\n- Invoice number\n- Reason for the refund request  \nApproved refunds are typically returned to the original payment method. Processing time depends on the payment provider and bank.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Refund policy",
+    "chunk_index": 9
+  },
+  {
+    "id": "billing.md_10",
+    "text": "## Payment methods accepted  \nFlowdesk accepts common digital payment methods for self-serve subscriptions.  \nSupported methods may include:  \n- Major credit cards\n- Major debit cards\n- UPI-enabled payments in supported regions\n- Net banking through supported gateways  \nAvailable options can vary by country, currency, and billing profile. Enterprise-style invoicing may be available only on approved Business accounts.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > Payment methods accepted",
+    "chunk_index": 10
+  },
+  {
+    "id": "billing.md_11",
+    "text": "## How to download an invoice  \nBilling admins can download invoices for completed payments.  \n1. Go to **Settings** > **Billing**.\n2. Open **Invoices** or **Billing History**.\n3. Select the invoice you want.\n4. Click **Download PDF**.  \nInvoices generally include:  \n- Invoice number\n- Billing period\n- Workspace name\n- Seat count\n- Taxes, if applicable\n- Payment status  \nIf you need billing details updated for future invoices, edit the billing profile before the next renewal date.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > How to download an invoice",
+    "chunk_index": 11
+  },
+  {
+    "id": "billing.md_12",
+    "text": "## What happens if payment fails  \nIf a recurring payment fails, Flowdesk attempts to collect payment again automatically using the saved payment method. During this period:  \n- Billing admins may receive email alerts\n- In-app warnings may appear in the billing section\n- Paid features remain active for a short grace period  \nIf payment is not resolved after repeated attempts, the workspace may be restricted or downgraded. To avoid interruption:  \n1. Update the payment method in **Settings** > **Billing**.\n2. Confirm the card or bank account is active.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > What happens if payment fails",
+    "chunk_index": 12
+  },
+  {
+    "id": "billing.md_13",
+    "text": "2. Confirm the card or bank account is active.\n3. Check whether your bank blocked the transaction.\n4. Retry the payment from the billing page if the option is available.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > What happens if payment fails",
+    "chunk_index": 13
+  },
+  {
+    "id": "billing.md_14",
+    "text": "## How to apply a coupon code  \nCoupon or promotional codes can usually be applied during checkout or plan upgrade.  \n1. Start the checkout or upgrade flow.\n2. Locate the **Coupon Code** or **Promo Code** field.\n3. Enter the code exactly as provided.\n4. Click **Apply**.\n5. Review the updated subtotal before completing payment.  \nImportant notes:  \n- Coupon codes may be limited to first-time upgrades or specific plans.\n- Only one coupon code can usually be applied per transaction.\n- Expired or region-restricted codes will not validate.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > How to apply a coupon code",
+    "chunk_index": 14
+  },
+  {
+    "id": "billing.md_15",
+    "text": "- Expired or region-restricted codes will not validate.  \nIf a valid code does not apply correctly, capture a screenshot of the checkout page and contact support before completing payment.",
+    "source": "billing.md",
+    "header": "Flowdesk Billing and Subscription Guide > How to apply a coupon code",
+    "chunk_index": 15
+  },
+  {
+    "id": "faq.md_16",
+    "text": "# Flowdesk FAQ  \nThis FAQ covers the most common workflow questions for Flowdesk, our project management platform for teams that plan work, track progress, and collaborate across projects. Use the sections below when you need quick guidance for everyday actions inside a workspace.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ",
+    "chunk_index": 16
+  },
+  {
+    "id": "faq.md_17",
+    "text": "## How to create a project  \nCreating a project in Flowdesk gives your team a dedicated space for tasks, timelines, files, and discussion.  \n1. Sign in to Flowdesk and open the workspace where the project should live.\n2. Select **New Project** from the left sidebar or the top navigation bar.\n3. Enter a project name that is easy for your team to recognize.\n4. Add an optional description to explain the project goal, owner, or delivery date.\n5. Choose a starting view such as **Board**, **List**, or **Timeline**.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to create a project",
+    "chunk_index": 17
+  },
+  {
+    "id": "faq.md_18",
+    "text": "5. Choose a starting view such as **Board**, **List**, or **Timeline**.\n6. Select a template if you want prebuilt sections for launches, sprints, onboarding, or internal operations.\n7. Click **Create Project**.  \nAfter the project is created, you can:  \n- Add tasks and subtasks\n- Assign owners and due dates\n- Attach files or external links\n- Pin project notes for the team\n- Set the project status to `Planning`, `Active`, or `On Hold`  \nIf you do not see the option to create a project, your workspace role may be limited. Ask a workspace admin for project creation access.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to create a project",
+    "chunk_index": 18
+  },
+  {
+    "id": "faq.md_19",
+    "text": "## How to invite team members to a workspace  \nYou can invite teammates so they can view or contribute to projects in the same workspace.  \n1. Open the workspace switcher and select the correct workspace.\n2. Go to **Settings** > **Members**.\n3. Click **Invite Members**.\n4. Enter one or more email addresses separated by commas.\n5. Choose a role for each user:\n- `Admin` can manage billing, workspace settings, and members.\n- `Member` can work on projects and tasks they have access to.\n- `Guest` can access only shared projects or items they are invited to.\n6. Click **Send Invites**.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to invite team members to a workspace",
+    "chunk_index": 19
+  },
+  {
+    "id": "faq.md_20",
+    "text": "6. Click **Send Invites**.  \nInvited users receive an email with a secure join link. Pending invites remain visible in the **Members** page until they are accepted, expired, or revoked.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to invite team members to a workspace",
+    "chunk_index": 20
+  },
+  {
+    "id": "faq.md_21",
+    "text": "## How to set recurring tasks  \nRecurring tasks are helpful for weekly reviews, monthly reports, content publishing, and routine operations.  \n1. Open an existing task or create a new one.\n2. In the task details panel, select the **Due Date** field.\n3. Turn on **Repeat**.\n4. Choose a frequency such as:\n- Daily\n- Weekly\n- Every 2 weeks\n- Monthly\n- Custom cadence\n5. Set an end condition if needed, such as a final date or number of occurrences.\n6. Save the task.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to set recurring tasks",
+    "chunk_index": 21
+  },
+  {
+    "id": "faq.md_22",
+    "text": "6. Save the task.  \nWhen a recurring task is completed, Flowdesk automatically creates the next instance based on the schedule. Comments, task title, assignee, priority, and checklist items can carry forward depending on your recurrence settings.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to set recurring tasks",
+    "chunk_index": 22
+  },
+  {
+    "id": "faq.md_23",
+    "text": "## How to export a project to CSV  \nProject export is useful for reporting, stakeholder updates, or backup analysis in spreadsheet tools.  \n1. Open the project you want to export.\n2. Click the three-dot menu in the upper-right corner.\n3. Select **Export** > **CSV**.\n4. Choose whether to export:\n- All tasks\n- Only active tasks\n- A filtered view\n- Completed tasks only\n5. Confirm the export.  \nThe CSV file typically includes task name, assignee, due date, status, priority, labels, and created date. Attachments, comments, and rich formatting are not included in CSV exports.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to export a project to CSV",
+    "chunk_index": 23
+  },
+  {
+    "id": "faq.md_24",
+    "text": "## How to use keyboard shortcuts  \nFlowdesk includes keyboard shortcuts to help frequent users move faster.  \nTo open the shortcut guide:  \n- Press `?` anywhere in the web app  \nCommon shortcuts include:  \n- `C` to create a new task\n- `P` to open project search\n- `G` then `H` to go to the Home dashboard\n- `G` then `M` to go to My Tasks\n- `/` to focus the search bar\n- `E` to edit the selected task\n- `Ctrl + Enter` or `Cmd + Enter` to save changes  \nShortcuts may be disabled while typing in text fields. Some combinations vary slightly by browser and operating system.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to use keyboard shortcuts",
+    "chunk_index": 24
+  },
+  {
+    "id": "faq.md_25",
+    "text": "## How to set task priorities  \nTask priorities help teams decide what needs immediate attention.  \nTo change priority:  \n1. Open the task card or task details drawer.\n2. Find the **Priority** field.\n3. Choose one of the standard values:\n- `Low`\n- `Medium`\n- `High`\n- `Urgent`\n4. Save the task if autosave is not enabled in your workspace.  \nYou can also sort and filter project views by priority to surface critical work first.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to set task priorities",
+    "chunk_index": 25
+  },
+  {
+    "id": "faq.md_26",
+    "text": "## How to archive a project  \nArchiving is recommended when a project is complete but you still want to preserve its history.  \n1. Open the project.\n2. Click the three-dot menu.\n3. Select **Project Settings**.\n4. Choose **Archive Project**.\n5. Confirm the action.  \nArchived projects are removed from active navigation and reporting views, but authorized users can still restore them later from the archived projects list. Archiving does not delete tasks, files, comments, or activity history.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to archive a project",
+    "chunk_index": 26
+  },
+  {
+    "id": "faq.md_27",
+    "text": "## How to change notification settings  \nFlowdesk lets each user control how and when they receive updates.  \n1. Click your profile avatar.\n2. Go to **My Settings** > **Notifications**.\n3. Review the available notification categories:\n- Task assignments\n- Due date reminders\n- Comment mentions\n- Status changes\n- Daily digest emails\n- Mobile push notifications\n4. Turn categories on or off based on your preference.\n5. Save your changes.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to change notification settings",
+    "chunk_index": 27
+  },
+  {
+    "id": "faq.md_28",
+    "text": "5. Save your changes.  \nWorkspace admins can also define default notification rules for new members, but personal settings usually override those defaults. If you stop receiving expected updates, make sure browser notifications are allowed and that your email address is verified.",
+    "source": "faq.md",
+    "header": "Flowdesk FAQ > How to change notification settings",
+    "chunk_index": 28
+  },
+  {
+    "id": "technical.md_29",
+    "text": "# Flowdesk Technical Support Guide  \nThis guide helps users and support teams troubleshoot common technical issues in Flowdesk. The steps below are written for the web application first, but most recommendations also apply to desktop and mobile clients unless noted otherwise.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide",
+    "chunk_index": 29
+  },
+  {
+    "id": "technical.md_30",
+    "text": "## Task notifications not working  \nIf task assignment alerts, mentions, or due date reminders are not arriving, check the following in order:  \n1. Confirm notifications are enabled in **My Settings** > **Notifications**.\n2. Verify the affected event is one that actually triggers a notification, such as a new assignment, comment mention, or due date reminder.\n3. Check whether the task or project is muted.\n4. Make sure your email address is verified if you expect email alerts.\n5. Confirm your browser allows notifications for Flowdesk if you rely on desktop pop-ups.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Task notifications not working",
+    "chunk_index": 30
+  },
+  {
+    "id": "technical.md_31",
+    "text": "6. Ask your workspace admin whether notification defaults or security policies are limiting delivery.  \nAdditional checks:  \n- Review spam, junk, or quarantine folders for email notifications.\n- Sign out and back in to refresh your session.\n- On mobile, ensure app notifications are enabled in the device settings.\n- If only one workspace is affected, the issue may be tied to workspace-level notification rules.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Task notifications not working",
+    "chunk_index": 31
+  },
+  {
+    "id": "technical.md_32",
+    "text": "## Video call integration issues  \nFlowdesk can attach meetings to tasks or launch calls through supported meeting providers. If calls are failing to start or join:  \n1. Verify the integration is connected in **Settings** > **Integrations**.\n2. Re-authenticate the affected provider if the token has expired.\n3. Confirm the meeting link was generated successfully and is not malformed.\n4. Check microphone and camera permissions in the browser or operating system.\n5. Disable browser extensions that block pop-ups, scripts, or third-party cookies.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Video call integration issues",
+    "chunk_index": 32
+  },
+  {
+    "id": "technical.md_33",
+    "text": "If users can create meeting links but cannot join them, the issue is often external to Flowdesk, such as the meeting provider being unavailable or the account not having permission to host calls.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Video call integration issues",
+    "chunk_index": 33
+  },
+  {
+    "id": "technical.md_34",
+    "text": "## Browser compatibility issues  \nFlowdesk supports the current and previous major versions of:  \n- Google Chrome\n- Microsoft Edge\n- Mozilla Firefox\n- Safari on macOS  \nYou may experience layout issues, missing buttons, or failed drag-and-drop actions when using outdated browsers or privacy-focused extensions that block essential scripts.  \nRecommended steps:  \n1. Update the browser to the latest version.\n2. Test the same action in an incognito or private window.\n3. Disable extensions one at a time, especially ad blockers, script blockers, and password managers.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Browser compatibility issues",
+    "chunk_index": 34
+  },
+  {
+    "id": "technical.md_35",
+    "text": "4. Confirm JavaScript and cookies are enabled.  \nInternet Explorer is not supported.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Browser compatibility issues",
+    "chunk_index": 35
+  },
+  {
+    "id": "technical.md_36",
+    "text": "## How to report a bug  \nWhen reporting a bug, include enough detail for the support or engineering team to reproduce it quickly.  \nPlease provide:  \n- A short summary of the issue\n- The page or feature where it happened\n- Steps to reproduce the behavior\n- What you expected to happen\n- What actually happened\n- Screenshots or screen recordings, if available\n- Browser name and version\n- Device and operating system\n- Time of occurrence and workspace name",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > How to report a bug",
+    "chunk_index": 36
+  },
+  {
+    "id": "technical.md_37",
+    "text": "- Device and operating system\n- Time of occurrence and workspace name  \nSubmit bugs through **Help** > **Contact Support** or by emailing your support address if your workspace has a dedicated success manager. Include any visible error code in the report.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > How to report a bug",
+    "chunk_index": 37
+  },
+  {
+    "id": "technical.md_38",
+    "text": "## Data not syncing across devices  \nIf tasks, comments, or status changes appear on one device but not another:  \n1. Confirm both devices are signed in to the same Flowdesk account.\n2. Check that both devices are connected to the internet.\n3. Refresh the project or sign out and back in.\n4. Look for offline mode indicators in the app.\n5. Verify the item was saved successfully on the original device.  \nIf the issue persists, inspect whether one device has an outdated cached session. Clearing cache or reinstalling the mobile app often resolves stale data problems.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Data not syncing across devices",
+    "chunk_index": 38
+  },
+  {
+    "id": "technical.md_39",
+    "text": "## Slack and Google Calendar integrations  \nFlowdesk supports integrations with Slack and Google Calendar for notifications, scheduling, and workflow visibility.  \nFor Slack:  \n- Connect the workspace from **Settings** > **Integrations**\n- Choose which channel types can receive Flowdesk updates\n- Confirm the Slack app is approved by your Slack workspace admin  \nFor Google Calendar:  \n- Connect the Google account used for meetings and deadlines\n- Review calendar permissions during setup\n- Confirm the correct timezone is configured in both Flowdesk and Google Calendar",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Slack and Google Calendar integrations",
+    "chunk_index": 39
+  },
+  {
+    "id": "technical.md_40",
+    "text": "Common integration issues include expired tokens, revoked permissions, and account mismatches between personal and company profiles.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Slack and Google Calendar integrations",
+    "chunk_index": 40
+  },
+  {
+    "id": "technical.md_41",
+    "text": "## How to clear cache if the dashboard is not loading  \nIf the dashboard stalls, shows partial content, or loops on a loading spinner, clear browser cache and site data for Flowdesk.  \nGeneral process:  \n1. Open browser settings.\n2. Locate **Privacy** or **Browsing Data**.\n3. Clear cached images and files.\n4. If needed, also clear cookies for the Flowdesk domain.\n5. Close and reopen the browser.\n6. Sign in again and reload the dashboard.  \nBefore clearing cookies, make sure you know your login method, especially if your workspace uses single sign-on.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > How to clear cache if the dashboard is not loading",
+    "chunk_index": 41
+  },
+  {
+    "id": "technical.md_42",
+    "text": "## Error codes  \nFlowdesk may display short technical error codes to help narrow down the problem.  \n- `FD-401`: Authentication failed. Your session may have expired, your password may have changed, or your single sign-on token is invalid. Sign in again and retry.\n- `FD-403`: Permission denied. You are signed in, but your role does not allow the action you attempted.\n- `FD-404`: Resource not found. The project, task, or file may have been deleted, moved, or you may not have access to it.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Error codes",
+    "chunk_index": 42
+  },
+  {
+    "id": "technical.md_43",
+    "text": "- `FD-409`: Update conflict. Another user or device changed the same record recently. Refresh the page and try again.\n- `FD-422`: Validation error. One or more fields contain missing or invalid values.\n- `FD-429`: Too many requests. The system is rate-limiting repeated actions. Wait a moment and retry.\n- `FD-500`: Internal server error. The request failed unexpectedly on the server side.\n- `FD-503`: Service temporarily unavailable. Flowdesk or a connected service may be under maintenance or experiencing a temporary outage.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Error codes",
+    "chunk_index": 43
+  },
+  {
+    "id": "technical.md_44",
+    "text": "If you contact support, include the exact error code, what action triggered it, and the approximate time it occurred.",
+    "source": "technical.md",
+    "header": "Flowdesk Technical Support Guide > Error codes",
+    "chunk_index": 44
+  },
+  {
+    "id": "test-upload-flowdesk.pdf_0",
+    "text": "Flowdesk Knowledge Base Test Document\nWorkspace Admins can export an activity report from Settings > Audit Log > Export CSV.\nExports are generated within 5 minutes and are available for download for 24 hours.\nIf a user sees error FD-910 during file sync, ask them to sign out, clear cached sync data, and sign in again.\nIf FD-910 continues after re-authentication, support should reindex the workspace attachments.\nEnterprise plan customers can request a retroactive invoice correction within 7 days of billing.",
+    "source": "test-upload-flowdesk.pdf",
+    "header": "PDF > Uploaded Document",
+    "chunk_index": 0
+  },
+  {
+    "id": "test-upload-flowdesk.pdf_1",
+    "text": "Invoice corrections are handled by the Billing Operations team, not by workspace admins directly.\nKnowledge base uploads should appear in search within one minute after ingestion completes.\nUploaded PDFs are stored in Google Cloud Storage under the documents folder.",
+    "source": "test-upload-flowdesk.pdf",
+    "header": "PDF > Uploaded Document",
+    "chunk_index": 1
+  }
+]

@@ -1,0 +1,32 @@
+# This file specifies files that are NOT uploaded to GCP Cloud Build
+
+# Virtual environment - this is the main culprit (~1GB)
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables - never upload secrets
+.env
+
+# Git
+.git/
+.gitignore
+
+# knowledge_base/chunks.json is intentionally included — needed by BM25 at runtime
+
+# HuggingFace cached models
+*.bin
+*.safetensors
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

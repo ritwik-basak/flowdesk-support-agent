@@ -1,0 +1,22 @@
+# dependencies will be added as we build each component
+rich                      # pretty colored terminal output
+pinecone                  # Pinecone vector database client
+sentence-transformers     # HuggingFace BGE-small embeddings and CrossEncoder reranking
+langchain                 # document loading core
+langchain-text-splitters  # MarkdownHeaderTextSplitter and RecursiveCharacterTextSplitter
+langchain-community       # HuggingFace embeddings integration
+rank-bm25                 # BM25 sparse keyword search, runs locally
+python-dotenv             # loading environment variables from .env
+langchain-groq       # Groq LLM integration
+langsmith            # tracing
+langchain-google-genai    # Gemini integration for LangChain
+langgraph     
+psycopg2-binary    # PostgreSQL driver for Python
+asyncpg            # async PostgreSQL driver (needed by LangGraph)
+langgraph-checkpoint-postgres  # LangGraph PostgreSQL checkpointer
+fastapi                   # API framework
+uvicorn                   # ASGI server for FastAPI
+sse-starlette             # Server-Sent Events for streaming responses
+python-multipart # needed for FastAPI form handling
+google-cloud-storage    # GCS client for uploading PDFs
+pypdf                   # PDF text extraction

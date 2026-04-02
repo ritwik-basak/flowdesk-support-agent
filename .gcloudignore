@@ -1,0 +1,13 @@
+.gcloudignore
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git/
+.gitignore
+*.md
+frontend/
+# knowledge_base/chunks.json is intentionally included — needed by BM25 at runtime
+flowdesk-service-account.json
