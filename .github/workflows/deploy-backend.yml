@@ -32,8 +32,11 @@ jobs:
         run: |
           gcloud config unset api_endpoint_overrides/run || true
           unset CLOUDSDK_API_ENDPOINT_OVERRIDES_RUN || true
+          echo "CLOUDSDK_API_ENDPOINT_OVERRIDES_RUN=" >> "$GITHUB_ENV"
 
       - name: Deploy backend from source
+        env:
+          CLOUDSDK_API_ENDPOINT_OVERRIDES_RUN: ""
         run: |
           gcloud run deploy "${{ secrets.CLOUD_RUN_SERVICE }}" \
             --source . \
