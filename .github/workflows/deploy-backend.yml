@@ -28,6 +28,11 @@ jobs:
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
 
+      - name: Clear gcloud Run endpoint override
+        run: |
+          gcloud config unset api_endpoint_overrides/run || true
+          unset CLOUDSDK_API_ENDPOINT_OVERRIDES_RUN || true
+
       - name: Deploy backend from source
         run: |
           gcloud run deploy "${{ secrets.CLOUD_RUN_SERVICE }}" \
