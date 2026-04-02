@@ -24,11 +24,11 @@ A full-stack AI-powered support assistant built with FastAPI and React. Flowdesk
 
 - Built a production-grade multi-agent customer support system using LangGraph supervisor architecture with dynamic
 routing across agents, leveraging Gemini and Groq.
-– Implemented hybrid RAG pipeline combining dense vector search (Pinecone + BGE-small), BM25 sparse search, and
+- Implemented hybrid RAG pipeline combining dense vector search (Pinecone + BGE-small), BM25 sparse search, and
 CrossEncoder reranking.
-– Engineered LLMOps evaluation layer with real-time confidence scoring, structured decision reasoning, self-correction
+- Engineered LLMOps evaluation layer with real-time confidence scoring, structured decision reasoning, self-correction
 retry loop with PostgreSQL-based agent memory.
-– Deployed a scalable backend on GCP Cloud Run with Docker containerization and automated CI/CD using GitHub
+- Deployed a scalable backend on GCP Cloud Run with Docker containerization and automated CI/CD using GitHub
 Actions.
 
 ---
