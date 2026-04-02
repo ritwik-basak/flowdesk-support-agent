@@ -22,15 +22,14 @@ A full-stack AI-powered support assistant built with FastAPI and React. Flowdesk
 
 ## Key Highlights
 
-- Built a full-stack support system using FastAPI, LangGraph, React, and Vite
-- Uses a multi-agent architecture with a supervisor, FAQ agent, technical agent, billing agent, and escalation agent
-- Routes user queries by intent before specialist handling, then evaluates confidence and retries low-confidence answers before escalation
-- Combines dense semantic retrieval from Pinecone with local BM25 keyword retrieval over chunked support content
-- Uses sentence-transformers embeddings with a CrossEncoder reranker for stronger retrieval quality
-- Supports live SSE streaming from the backend so answers appear progressively in the chat UI
-- Tracks support metrics, top failing queries, and feedback for observability
-- Persists uploaded PDFs to Google Cloud Storage and ingests them into Pinecone for new knowledge base coverage
-- Includes a glassmorphism-style frontend dashboard with chat, analytics, metrics, and knowledge base upload tools
+- Built a production-grade multi-agent customer support system using LangGraph supervisor architecture with dynamic
+routing across agents, leveraging Gemini and Groq.
+– Implemented hybrid RAG pipeline combining dense vector search (Pinecone + BGE-small), BM25 sparse search, and
+CrossEncoder reranking.
+– Engineered LLMOps evaluation layer with real-time confidence scoring, structured decision reasoning, self-correction
+retry loop with PostgreSQL-based agent memory.
+– Deployed a scalable backend on GCP Cloud Run with Docker containerization and automated CI/CD using GitHub
+Actions.
 
 ---
 
