@@ -606,3 +606,5 @@ Uploaded PDFs are:
 - For the strongest retrieval, upload a PDF and ask a question from it right after ingestion
 - Dense retrieval from Pinecone remains available even if BM25 state is later lost on Cloud Run restart
 - Never commit `.env` or service account JSON files to GitHub
+
+- -
