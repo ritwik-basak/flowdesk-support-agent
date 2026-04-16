@@ -607,4 +607,4 @@ Uploaded PDFs are:
 - Dense retrieval from Pinecone remains available even if BM25 state is later lost on Cloud Run restart
 - Never commit `.env` or service account JSON files to GitHub
 
-- -
+- - -
